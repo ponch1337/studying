@@ -177,18 +177,52 @@
 // console.log(num1, num2)
 
 
-const userProfile = 
-{
-    name: 'Kate',
-    commentsQty: 999,
-    hasSignedAgreement: false
+// const userProfile = 
+// {
+//     name: 'Kate',
+//     commentsQty: 999,
+//     hasSignedAgreement: false
+// }
+// const userInfo = ({ name, commentsQty }) => 
+// {
+//     if (!commentsQty)
+//     {
+//         return `User ${name} has no comments`
+//     }
+//     return `User ${name} has ${commentsQty} comments`
+// }
+// userInfo(userProfile)
+
+
+// while (true) {
+//     const age = +promt('How old are you?')
+
+//     if (age) {
+//         alert('Hello') 
+//         break
+//     }
+
+//     alert ('Not correct')
+// }
+// alert('End')
+
+
+// let tries = 0
+// while (tries<3) {
+//     const age = +promt('How old are you?')
+
+//     if (age) {
+//         alert('Hello')
+//         break
+//     }
+// tries ++
+// alert ('Not correct')
+// }
+// alert('End')
+
+
+for (let i = 0; i < 10; i++) {
+    if (i  % 2 ===0) continue 
+    console.log(i)
 }
-const userInfo = ({ name, commentsQty }) => 
-{
-    if (!commentsQty)
-    {
-        return `User ${name} has no comments`
-    }
-    return `User ${name} has ${commentsQty} comments`
-}
-userInfo(userProfile)
+console.log('end')
